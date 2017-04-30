@@ -8,8 +8,7 @@ public class DoubleDemo {
 		double a;
 		a = 1.1;
 		System.out.println(a + 1.1);
-		Test1 test1 = new Test1();
-		test1.test();
+
 	}
 
 }
