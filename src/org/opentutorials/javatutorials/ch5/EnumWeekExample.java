@@ -27,7 +27,7 @@ public class EnumWeekExample {
             case 6:
                 today = Week.FRIDAY; break;
             case 7:
-                today = Week.SATURADAY; break;
+                today = Week.SATURDAY; break;
 
         }
 
