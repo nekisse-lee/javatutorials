@@ -1,0 +1,25 @@
+package org.opentutorials.javatutorials.ch10Exception.sec07;
+
+/**
+ * Created by Nekisse_lee on 2017. 5. 29..
+ */
+public class Account {
+    private long balance;
+
+    public Account(){}
+
+    public long getBalance(){
+        return balance;
+    }
+
+    public void deposit(int money){
+        balance += money;
+    }
+
+    public void withdraw(int money) throws BalanceInsufficientException{
+        if(balance < money){
+            throw new BalanceInsufficientException("잔고부족"+(money-balance)+" 모자람");
+        }
+        balance-=money;
+    }
+}
