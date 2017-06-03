@@ -6,8 +6,8 @@ package org.opentutorials.javatutorials.ch11.sec06;
 public class NewInstanceExample {
     public static void main(String[] args) {
         try {
-            Class clazz = Class.forName("ch11.sec06_newinstance.SendAction");
-            //Class clazz = Class.forName("sec06.exam03_newinstance.ReceiveAction");
+//            Class clazz = Class.forName("org.opentutorials.javatutorials.ch11.sec06.SendAction");
+            Class clazz = Class.forName("org.opentutorials.javatutorials.ch11.sec06.ReceiveAction");
             Action action = (Action)    clazz.newInstance();
             action.execute();
         } catch (ClassNotFoundException e) {
