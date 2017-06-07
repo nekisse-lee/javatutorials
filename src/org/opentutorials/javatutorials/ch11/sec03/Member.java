@@ -22,4 +22,9 @@ public class Member {
         }
         return false;
     }
+
+    @Override
+    public int hashCode() {
+        return id.hashCode();
+    }
 }
