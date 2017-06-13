@@ -5,11 +5,11 @@ package org.opentutorials.javatutorials.ch7.sec7promotionaccess;
  */
 public class Parent {
     public void method1(){
-        System.out.println("Parent - method1()");
+        System.out.println("Child - method1()");
     }
 
 
     public void method2(){
-        System.out.println("Parent - method2()");
+        System.out.println("Child - method2()");
     }
 }
