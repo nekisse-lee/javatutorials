@@ -1,19 +1,20 @@
-package org.opentutorials.javatutorials.ch10Exception.sec03;
+package org.opentutorials.javatutorials.ch10.sec03_try_catch_finally;
 
 /**
- * Created by Nekisse_lee on 2017. 5. 29..
+ * Created by Nekisse_lee on 2017. 6. 19..
  */
 public class TryCatchFinallyRuntimeExceptionExample {
     public static void main(String[] args) {
         String data1 = null;
         String data2 = null;
+
         try {
             data1 = args[0];
             data2 = args[1];
-        } catch(ArrayIndexOutOfBoundsException e) {
+        }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("실행 매개값의 수가 부족합니다.");
-            System.out.println("[실행 방법]");
-            System.out.println("java TryCatchFinallyRuntimeExceptionExample  num1  num2");
+            System.out.println("[실행방법]");
+            System.out.println("java TryCatchFinallyRuntimeExceptionExample num1 num2");
             return;
         }
 
@@ -22,10 +23,10 @@ public class TryCatchFinallyRuntimeExceptionExample {
             int value2 = Integer.parseInt(data2);
             int result = value1 + value2;
             System.out.println(data1 + "+" + data2 + "=" + result);
-        } catch(NumberFormatException e) {
-            System.out.println("숫자로 변환할 수 없습니다.");
-        } finally {
-            System.out.println("다시 실행하세요.");
+        }catch (NumberFormatException e){
+            System.out.println("숫자로 변환할수 없습니다.");
+        }finally {
+            System.out.println("다시 실행해 주세요.");
         }
     }
 }
