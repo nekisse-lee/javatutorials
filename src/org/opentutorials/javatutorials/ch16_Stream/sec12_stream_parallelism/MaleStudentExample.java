@@ -1,4 +1,4 @@
-package org.opentutorials.javatutorials.ch16_Stream.sec11_stream_parallelism;
+package org.opentutorials.javatutorials.ch16_Stream.sec12_stream_parallelism;
 
 import java.util.Arrays;
 import java.util.List;

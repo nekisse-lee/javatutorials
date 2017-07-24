@@ -1,4 +1,4 @@
-package org.opentutorials.javatutorials.ch16_Stream.sec11_stream_parallelism;
+package org.opentutorials.javatutorials.ch16_Stream.sec12_stream_parallelism;
 
 /**
  * Created by Nekisse_lee on 2017. 7. 19..
