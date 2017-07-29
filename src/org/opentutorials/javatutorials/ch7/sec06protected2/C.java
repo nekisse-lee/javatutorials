@@ -7,7 +7,7 @@ import org.opentutorials.javatutorials.ch7.sec06protected1.A;
  */
 public class C {
     public void method() {
-//        A a = new A();
+//        ClassA a = new ClassA();
 //        a.field = "value";
 //        a.method();
     }

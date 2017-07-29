@@ -1,6 +1,6 @@
 package org.opentutorials.javatutorials.polymorphism;
 class A{
-    public String x(){return "A.x";}
+    public String x(){return "ClassA.x";}
 }
 class B extends A{
     public String x(){return "B.x";}

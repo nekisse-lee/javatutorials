@@ -23,12 +23,12 @@ public class SetDemo {
 //        C.add(1);
 //        C.add(2);
 //
-//        System.out.println(A.containsAll(B)); // false
-//        System.out.println(A.containsAll(C)); // true
+//        System.out.println(ClassA.containsAll(B)); // false
+//        System.out.println(ClassA.containsAll(C)); // true
 
-//        A.addAll(B);
-//        A.retainAll(B);
-//        A.removeAll(B);
+//        ClassA.addAll(B);
+//        ClassA.retainAll(B);
+//        ClassA.removeAll(B);
 
         Iterator hi = A.iterator();
         while(hi.hasNext()){

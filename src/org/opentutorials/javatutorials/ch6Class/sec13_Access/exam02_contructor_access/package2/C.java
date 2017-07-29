@@ -7,6 +7,6 @@ import org.opentutorials.javatutorials.ch6Class.sec13_Access.exam02_contructor_a
  */
 public class C {
     A a1 = new A(true);
-    /*  A a2 = new A();     디폴트생성자 다른패키지 사용 xxx
-        A a3 = new A("문자열");      프라이빗 */
+    /*  ClassA a2 = new ClassA();     디폴트생성자 다른패키지 사용 xxx
+        ClassA a3 = new ClassA("문자열");      프라이빗 */
 }

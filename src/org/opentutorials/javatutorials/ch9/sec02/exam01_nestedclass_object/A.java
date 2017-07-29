@@ -5,7 +5,7 @@ package org.opentutorials.javatutorials.ch9.sec02.exam01_nestedclass_object;
  */
 public class A {
     A(){
-        System.out.println("A 객체가 생성됨");
+        System.out.println("ClassA 객체가 생성됨");
 
     }
 

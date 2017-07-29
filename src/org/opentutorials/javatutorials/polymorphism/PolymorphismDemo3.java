@@ -7,7 +7,7 @@ interface I3{
 }
 class D implements I2, I3{
     public String A(){
-        return "A";
+        return "ClassA";
     }
     public String B(){
         return "B";
@@ -25,7 +25,7 @@ public class PolymorphismDemo3 {
         objI2.A();
         //objI2.B();
 
-        //objI3.A();
+        //objI3.ClassA();
         objI3.B();
     }
 }
