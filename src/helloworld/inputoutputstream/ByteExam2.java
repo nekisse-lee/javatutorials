@@ -2,16 +2,17 @@ package helloworld.inputoutputstream;
 
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.ByteBuffer;
 
 /**
  * Created by Nekisse_lee on 2017. 7. 27..
  */
-public class ByteExam1 {
+public class ByteExam2 {
     public static void main(String[] args) {
         long starTime = System.currentTimeMillis();
+
         FileInputStream fis = null;
         FileOutputStream fos = null;
         try {
@@ -19,9 +20,10 @@ public class ByteExam1 {
             fos = new FileOutputStream("Temp/byte.txt");
 
 
-            int readData = -1;
-            while ((readData = fis.read()) != -1){
-                fos.write(readData);
+            int readCount = -1;
+            byte[] buffer = new byte[512];
+            while ((readCount = fis.read(buffer)) != -1){
+                fos.write(buffer,0,readCount);
             }
 
         } catch (Exception e) {
@@ -41,6 +43,5 @@ public class ByteExam1 {
         }
         long endTime = System.currentTimeMillis();
         System.out.println(endTime-starTime);
-
     }
 }
