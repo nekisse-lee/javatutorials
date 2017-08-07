@@ -6,7 +6,7 @@ package org.opentutorials.javatutorials.ch13_generic.verify.exam04_whildcard;
 public class Util {
     //how1
    /* public static <K,V> V getValue(Pair<K,V> p, K k){
-        if (p.getKey()==k){
+        If (p.getKey()==k){
             return p.getValue();
         }else{
             return null;
