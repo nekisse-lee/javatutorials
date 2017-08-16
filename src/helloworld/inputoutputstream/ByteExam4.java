@@ -12,7 +12,7 @@ import java.nio.file.Path;
 public class ByteExam4 {
     public static void main(String[] args) {
         try(
-                DataInputStream dis = new DataInputStream(new FileInputStream("Temp/data.txt"));
+                DataInputStream dis = new DataInputStream(new FileInputStream("Temp/humanpage.txt"));
                 ){
             int i = dis.readInt();
             boolean b = dis.readBoolean();

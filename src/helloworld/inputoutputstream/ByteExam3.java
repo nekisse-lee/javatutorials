@@ -9,7 +9,7 @@ import java.io.FileOutputStream;
 public class ByteExam3 {
     public static void main(String[] args) {
         try(
-                DataOutputStream out = new DataOutputStream(new FileOutputStream("Temp/data.txt"));
+                DataOutputStream out = new DataOutputStream(new FileOutputStream("Temp/humanpage.txt"));
                 ){
 
             out.writeInt(100);
