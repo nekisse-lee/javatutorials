@@ -1,7 +1,5 @@
 package baekjoon;
 
-import org.opentutorials.javatutorials.ch18_io.sec05.exam08_objectinputstream_objectoutputstream.Parent;
-
 import java.util.Scanner;
 
 /**
