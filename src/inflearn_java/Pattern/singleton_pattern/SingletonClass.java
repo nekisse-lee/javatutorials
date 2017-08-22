@@ -1,4 +1,4 @@
-package inflearn_java.singleton_pattern;
+package inflearn_java.Pattern.singleton_pattern;
 
 /**
  * Created by Nekisse_lee on 2017. 8. 21..
